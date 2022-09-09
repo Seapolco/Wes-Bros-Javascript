@@ -54,6 +54,15 @@
 
     delete comments[1];
 
+    //Incorrect method as it returns a butchered array.
+
+    newComments = [
+      ...comments.slice(0,desiredIndex),
+      ...comments.slice(desiredIndex + 1)
+    ]
+    newComments
+
+
   </script>
 </body>
 </html>
